@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@media (min-width: 1301px) {
+  .product_card {
+    width: 20%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1300px) {
+  .product_card {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .product_card {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 767px) {
+  .product_card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .product_card {
+    width: 100%;
+  }
+}
+
+#root {
+  margin: 20px;
+  width: 100%;
+}
+.product_card {
+  margin: 15px;
+  min-width: 319px;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.product_card-list {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+}
+.product_card-img {
+  width: 300px;
+  height: 300px;
+}
+
+.product_card-img-list {
+  width: 150px;
+  height: 150px;
+}
+
+.material-icons {
+  display: flex;
+  flex-direction: row-reverse;
+}
